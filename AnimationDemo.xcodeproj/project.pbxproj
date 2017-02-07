@@ -13,6 +13,17 @@
 		EE7A5ADE1E495B2400C97437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7A5ADC1E495B2400C97437 /* Main.storyboard */; };
 		EE7A5AE01E495B2400C97437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7A5ADF1E495B2400C97437 /* Assets.xcassets */; };
 		EE7A5AE31E495B2400C97437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7A5AE11E495B2400C97437 /* LaunchScreen.storyboard */; };
+		EE7A5AEC1E495FB700C97437 /* BasicAnimController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A5AEB1E495FB700C97437 /* BasicAnimController.m */; };
+		EE7A5AEF1E495FC700C97437 /* KeyframeAnimController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A5AEE1E495FC700C97437 /* KeyframeAnimController.m */; };
+		EE7A5AF21E495FE300C97437 /* DrawLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A5AF11E495FE300C97437 /* DrawLineController.m */; };
+		EE7A5AF51E495FF300C97437 /* TransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A5AF41E495FF300C97437 /* TransitionViewController.m */; };
+		EE7A5AF81E49600000C97437 /* SpringAnimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A5AF71E49600000C97437 /* SpringAnimViewController.m */; };
+		EE7A5AFB1E49600D00C97437 /* WaterWaveController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A5AFA1E49600D00C97437 /* WaterWaveController.m */; };
+		EE7A5AFE1E49601E00C97437 /* FireAnimController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A5AFD1E49601E00C97437 /* FireAnimController.m */; };
+		EE7A5B001E49745900C97437 /* from.png in Resources */ = {isa = PBXBuildFile; fileRef = EE7A5AFF1E49745900C97437 /* from.png */; };
+		EE7A5B021E49748E00C97437 /* to.png in Resources */ = {isa = PBXBuildFile; fileRef = EE7A5B011E49748E00C97437 /* to.png */; };
+		EE7A5B041E499B2E00C97437 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = EE7A5B031E499B2E00C97437 /* fire.png */; };
+		EE7A5B071E49A2B200C97437 /* WaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A5B061E49A2B200C97437 /* WaterWaveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,25 @@
 		EE7A5ADF1E495B2400C97437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE7A5AE21E495B2400C97437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE7A5AE41E495B2400C97437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7A5AEA1E495FB700C97437 /* BasicAnimController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAnimController.h; sourceTree = "<group>"; };
+		EE7A5AEB1E495FB700C97437 /* BasicAnimController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAnimController.m; sourceTree = "<group>"; };
+		EE7A5AED1E495FC700C97437 /* KeyframeAnimController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyframeAnimController.h; sourceTree = "<group>"; };
+		EE7A5AEE1E495FC700C97437 /* KeyframeAnimController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyframeAnimController.m; sourceTree = "<group>"; };
+		EE7A5AF01E495FE300C97437 /* DrawLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLineController.h; sourceTree = "<group>"; };
+		EE7A5AF11E495FE300C97437 /* DrawLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawLineController.m; sourceTree = "<group>"; };
+		EE7A5AF31E495FF300C97437 /* TransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionViewController.h; sourceTree = "<group>"; };
+		EE7A5AF41E495FF300C97437 /* TransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionViewController.m; sourceTree = "<group>"; };
+		EE7A5AF61E49600000C97437 /* SpringAnimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringAnimViewController.h; sourceTree = "<group>"; };
+		EE7A5AF71E49600000C97437 /* SpringAnimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringAnimViewController.m; sourceTree = "<group>"; };
+		EE7A5AF91E49600D00C97437 /* WaterWaveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterWaveController.h; sourceTree = "<group>"; };
+		EE7A5AFA1E49600D00C97437 /* WaterWaveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterWaveController.m; sourceTree = "<group>"; };
+		EE7A5AFC1E49601E00C97437 /* FireAnimController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireAnimController.h; sourceTree = "<group>"; };
+		EE7A5AFD1E49601E00C97437 /* FireAnimController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireAnimController.m; sourceTree = "<group>"; };
+		EE7A5AFF1E49745900C97437 /* from.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = from.png; sourceTree = "<group>"; };
+		EE7A5B011E49748E00C97437 /* to.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = to.png; sourceTree = "<group>"; };
+		EE7A5B031E499B2E00C97437 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
+		EE7A5B051E49A2B200C97437 /* WaterWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterWaveView.h; sourceTree = "<group>"; };
+		EE7A5B061E49A2B200C97437 /* WaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterWaveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +92,26 @@
 				EE7A5AD71E495B2400C97437 /* AppDelegate.m */,
 				EE7A5AD91E495B2400C97437 /* ViewController.h */,
 				EE7A5ADA1E495B2400C97437 /* ViewController.m */,
+				EE7A5AEA1E495FB700C97437 /* BasicAnimController.h */,
+				EE7A5AEB1E495FB700C97437 /* BasicAnimController.m */,
+				EE7A5AED1E495FC700C97437 /* KeyframeAnimController.h */,
+				EE7A5AEE1E495FC700C97437 /* KeyframeAnimController.m */,
+				EE7A5AF01E495FE300C97437 /* DrawLineController.h */,
+				EE7A5AF11E495FE300C97437 /* DrawLineController.m */,
+				EE7A5AF31E495FF300C97437 /* TransitionViewController.h */,
+				EE7A5AF41E495FF300C97437 /* TransitionViewController.m */,
+				EE7A5AF61E49600000C97437 /* SpringAnimViewController.h */,
+				EE7A5AF71E49600000C97437 /* SpringAnimViewController.m */,
+				EE7A5AF91E49600D00C97437 /* WaterWaveController.h */,
+				EE7A5AFA1E49600D00C97437 /* WaterWaveController.m */,
+				EE7A5B051E49A2B200C97437 /* WaterWaveView.h */,
+				EE7A5B061E49A2B200C97437 /* WaterWaveView.m */,
+				EE7A5AFC1E49601E00C97437 /* FireAnimController.h */,
+				EE7A5AFD1E49601E00C97437 /* FireAnimController.m */,
 				EE7A5ADC1E495B2400C97437 /* Main.storyboard */,
+				EE7A5AFF1E49745900C97437 /* from.png */,
+				EE7A5B011E49748E00C97437 /* to.png */,
+				EE7A5B031E499B2E00C97437 /* fire.png */,
 				EE7A5ADF1E495B2400C97437 /* Assets.xcassets */,
 				EE7A5AE11E495B2400C97437 /* LaunchScreen.storyboard */,
 				EE7A5AE41E495B2400C97437 /* Info.plist */,
@@ -140,6 +189,9 @@
 				EE7A5AE31E495B2400C97437 /* LaunchScreen.storyboard in Resources */,
 				EE7A5AE01E495B2400C97437 /* Assets.xcassets in Resources */,
 				EE7A5ADE1E495B2400C97437 /* Main.storyboard in Resources */,
+				EE7A5B041E499B2E00C97437 /* fire.png in Resources */,
+				EE7A5B001E49745900C97437 /* from.png in Resources */,
+				EE7A5B021E49748E00C97437 /* to.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,9 +202,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE7A5AEF1E495FC700C97437 /* KeyframeAnimController.m in Sources */,
+				EE7A5AF51E495FF300C97437 /* TransitionViewController.m in Sources */,
 				EE7A5ADB1E495B2400C97437 /* ViewController.m in Sources */,
+				EE7A5B071E49A2B200C97437 /* WaterWaveView.m in Sources */,
+				EE7A5AFB1E49600D00C97437 /* WaterWaveController.m in Sources */,
 				EE7A5AD81E495B2400C97437 /* AppDelegate.m in Sources */,
+				EE7A5AF81E49600000C97437 /* SpringAnimViewController.m in Sources */,
 				EE7A5AD51E495B2400C97437 /* main.m in Sources */,
+				EE7A5AEC1E495FB700C97437 /* BasicAnimController.m in Sources */,
+				EE7A5AFE1E49601E00C97437 /* FireAnimController.m in Sources */,
+				EE7A5AF21E495FE300C97437 /* DrawLineController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AnimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,6 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AnimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
